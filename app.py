@@ -5,8 +5,8 @@ import pandas as pd
 import streamlit as st
 import qrcode
 
-st.set_page_config(page_title="Uzun Kod — Linear", page_icon="🧩", layout="wide")
-st.title("🧩 Uzun Kod Oluşturma Programı — Linear Format")
+st.set_page_config(page_title="Uzun Kod v7", page_icon="🧩", layout="wide")
+st.title("🧩 Uzun Kod Oluşturma Programı — v7 / Statik")
 st.caption("Format: 'MakineTipi' + seçilen 'ValueCode’lar' + sayısal alanlar (gerekirse önekle). Örn: **CMC SIE AT 2500 D1300**")
 
 @st.cache_data
